@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+        min-height: 100vh;
+        border: 2px solid black;
+        
+        
+    }
+    img {
+        width: 400px;
+        height: 300px;
+        padding: 10px;
+    }
+    .img{
+        display:flex;
+        
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    img:hover{
+        opacity: 0.5;
+        transition: 0.8s;
+    }
+    @media screen and (max-width:1024px) {
+        .img img{
+            flex: 400px;
+
+        }
+    }
+    @media screen and (max-width:800px) {
+        .img img{
+            flex: 50%;
+            max-width: 50%;
+        }
+    }
+    @media screen and (max-width:400px) {
+        .img img{
+            flex: 100%;
+            max-width: 100%;
+            
+
+           
+            
+        }
+    }
+
+
+
+</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="img">
+
+
+        <img src="/images/smallimg/img1.jpg" alt="">
+        <img src="/images/smallimg/img2.jpg" alt="">
+        <img src="/images/smallimg/img3.jpg" alt="">
+        <img src="/images/smallimg/img4.jpg" alt="">
+        <img src="/images/smallimg/img5.jpg" alt="">
+        <img src="/images/smallimg/img6.jpg" alt="">
+        <img src="/images/smallimg/img7.jpg" alt="">
+        <img src="/images/smallimg/img8.jpg" alt="">
+
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
